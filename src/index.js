@@ -10,7 +10,7 @@ import AllQuestion from "./Components/AllQuestion";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/quiz-app">
     <>
       <Header />
       <Route exact path="/" component={App} />
